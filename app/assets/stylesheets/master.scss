@@ -1,5 +1,7 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
 
 .clear {
   clear: both;
@@ -40,6 +42,7 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'stardos_stencilbold', serif;
 }
 
 header {
@@ -48,4 +51,14 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'stardos_stencilbold', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'stardos_stencilregular', serif;
 }
